@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ByteRhythm - Privacy Policy</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --surface: #ffffff;
+    --text: #1a1a2e;
+    --text-secondary: #555570;
+    --accent: #4a3f8a;
+    --accent-light: #6c5ce7;
+    --border: #e0dff0;
+    --code-bg: #f0eef8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f0e17;
+      --surface: #1a1930;
+      --text: #e4e3f1;
+      --text-secondary: #a0a0bb;
+      --accent: #8b7ff5;
+      --accent-light: #a78bfa;
+      --border: #2a2945;
+      --code-bg: #1e1d30;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  .logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--accent-light);
+    letter-spacing: -0.5px;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 8px;
+    color: var(--text);
+  }
+  .effective-date {
+    margin-top: 8px;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    color: var(--accent-light);
+  }
+  p, li {
+    font-size: 16px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+  ul {
+    padding-left: 24px;
+    margin-bottom: 16px;
+  }
+  li { margin-bottom: 6px; }
+  strong { color: var(--text); font-weight: 600; }
+  .highlight {
+    background: var(--code-bg);
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  .highlight p { margin-bottom: 0; }
+  a {
+    color: var(--accent-light);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="logo">ByteRhythm</div>
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: March 14, 2026</p>
+  </header>
+
+  <p>ByteRhythm ("the App") is an iOS and watchOS application designed to help programmers track coding sessions, breaks, caffeine intake, and health data. This Privacy Policy explains how the App handles your information.</p>
+
+  <div class="highlight">
+    <p><strong>The short version:</strong> ByteRhythm does not collect, transmit, or share any of your personal data. All information stays on your device.</p>
+  </div>
+
+  <h2>1. Data Collection</h2>
+  <p>ByteRhythm does <strong>not</strong> collect any personal data. There is no user account, no registration, no sign-in, and no analytics or tracking of any kind. The App does not contain advertisements or third-party tracking SDKs.</p>
+  <p>The information you enter into the App -- such as coding session logs, break records, and caffeine intake -- is created and stored entirely on your device.</p>
+
+  <h2>2. Health Data</h2>
+  <p>With your explicit permission, the App may read the following data from Apple Health (HealthKit):</p>
+  <ul>
+    <li>Heart rate</li>
+    <li>Heart rate variability (HRV)</li>
+    <li>Sleep analysis</li>
+  </ul>
+  <p>This health data is used solely to provide you with wellness insights within the App. It is <strong>never transmitted off your device</strong>, never shared with third parties, and never used for advertising or analytics. Access to Apple Health data requires your explicit authorization through the iOS permissions dialog, and you may revoke this access at any time in the Settings app.</p>
+
+  <h2>3. Notifications</h2>
+  <p>The App uses Apple's UserNotifications framework to deliver break reminders and achievement notifications. These notifications are generated and scheduled locally on your device. No notification data is sent to any external server.</p>
+
+  <h2>4. In-App Purchases</h2>
+  <p>ByteRhythm offers an optional Pro subscription through Apple's StoreKit 2. All payment processing is handled entirely by Apple. The App does not receive, store, or have access to your payment information, billing details, or Apple ID. For details on how Apple handles purchase data, please refer to <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+
+  <h2>5. Data Storage</h2>
+  <p>All App data is stored locally on your device using Apple's SwiftData framework. This data resides in your device's sandboxed storage and is protected by iOS security measures, including device passcode and encryption.</p>
+  <p>ByteRhythm does not operate any servers, databases, or cloud infrastructure. No data leaves your device.</p>
+  <p>You can delete all App data at any time by uninstalling the App from your device.</p>
+
+  <h2>6. Third-Party Services</h2>
+  <p>ByteRhythm does not integrate with any third-party services, analytics platforms, crash reporting tools, or advertising networks. The only external integration is with Apple's own frameworks (HealthKit, StoreKit, UserNotifications), which are governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+
+  <h2>7. Future Features</h2>
+  <p>Future versions of ByteRhythm may introduce optional features such as cloud synchronization (via Apple's CloudKit) or GitHub integration. These features will be:</p>
+  <ul>
+    <li><strong>Strictly opt-in</strong> -- disabled by default and requiring your explicit consent to enable</li>
+    <li><strong>Disclosed clearly</strong> -- this Privacy Policy will be updated before any such feature is released</li>
+    <li><strong>Minimal in scope</strong> -- only the data necessary for the feature to function will be involved</li>
+  </ul>
+
+  <h2>8. Children's Privacy</h2>
+  <p>ByteRhythm is not directed at children under the age of 13. The App does not knowingly collect any personal information from children. Since the App does not collect personal data from any user, no special provisions for children's data are required.</p>
+
+  <h2>9. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with a revised effective date. We encourage you to review this policy periodically. Continued use of the App after changes are posted constitutes acceptance of the updated policy.</p>
+
+  <h2>10. Contact</h2>
+  <p>If you have any questions or concerns about this Privacy Policy or the App's privacy practices, please contact us at:</p>
+  <p><a href="mailto:support@byterhythm.app">support@byterhythm.app</a></p>
+
+  <footer>
+    &copy; 2026 ByteRhythm. All rights reserved.
+  </footer>
+</div>
+</body>
+</html>
